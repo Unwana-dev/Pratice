@@ -1,0 +1,110 @@
+/*--------------------*/
+/*      Reset         */
+/*--------------------*/
+
+/* Box sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    width: 100%;
+}
+
+header{
+    border: 5px solid black;
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+}
+
+header img{
+    height: 50%;
+}
+
+body nav {
+    border: 2px solid red;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body nav ul{
+    border: 2px solid blue;
+    display: flex;
+    align-items: center;
+    list-style: none ;
+    margin: 0 20px;
+    text-decoration: none;
+    margin-left: 100px;
+}
+
+body nav ul li{
+    padding: 0 30px;
+    text-decoration: none;
+}
+
+#nav-end{
+    border: 2px solid green;
+    display: flex;
+}
+
+#nav-end img{
+    width: 50px;
+}
+
+main{
+    border: 5px solid purple;
+    width: 70%;
+    display: flex;
+    margin: 0 auto;
+}
+
+#Big-image{
+    width: 90%;
+    border-radius: 5px;
+}
+
+#images{
+    border: 2px solid orange;
+}
+
+#images-thumbmail ul{
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+#images-thumbmail ul li img{
+    width: 65%;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+#text{
+    padding: 50px 0 ;
+    width: 50%;
+}
+
+#text h3{
+    color: rgb(245, 166, 21);
+    margin-bottom: 20px;
+}
+
+#text h1{
+    font-weight: bold;
+}
+
+.h1-text{
+    margin-bottom: 30px;
+}
+
+.text-light{
+    color: rgb(110, 110, 110);
+}

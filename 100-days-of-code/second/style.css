@@ -1,0 +1,53 @@
+h1{
+    font: bold;
+    text-align: center;
+}
+
+main{
+    width: 800px;
+    margin: 20px auto;
+    color: blueviolet;
+}
+
+footer{
+    text-align: center;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li{
+    margin: 12px 0;
+    padding-left: 10px;
+}
+
+.container{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.colored-lists{
+    color: yellow;
+    border-left: 5px solid lightgoldenrodyellow;
+}
+
+.colored-text{
+    background-color: lightyellow;
+    color: black;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.button{
+    width: 30%;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    background-color: yellow;
+    padding: 10px;
+    margin: 20px auto;
+}
