@@ -24,7 +24,7 @@
                 <ul>
                     <li>
                         <label for="username">Your name</label>
-                        <input type="text" name="user-name" id="username">
+                        <input type="text" name="user-name" id="username" required>
                     </li>
 
                     <li>
@@ -36,7 +36,7 @@
                         
                     <li>
                         <label for="userpassword">Your password</label>
-                        <input type="password" id="userpassword" name="user-password">
+                        <input type="password" id="userpassword" name="user-password" required minlength="8">
                     </li>
                 </ul>
             </section>
@@ -48,11 +48,11 @@
                         <label for="userage">
                             Your age
                         </label>
-                        <input type="number" name="user-age" id="userage"> 
+                        <input type="number" name="user-age" id="userage" min="18" max="100"> 
                     </li>
                     <li>
                         <label for="birthdate">Your birthday</label>
-                        <input type="date" id="birthdate" name="user-birthdate">
+                        <input type="date" id="birthdate" name="user-birthdate" required min="1921-01-01" >
                     </li>
                     <li>
                         <label for="favorite-color">Your favorite color?</label>
@@ -67,7 +67,7 @@
 
             <section>
                 <label for="usermessage">Your message</label>
-                <textarea name="" id="usermessage" cols="30" rows="10"></textarea>
+                <textarea name="" id="usermessage" cols="30" rows="1"></textarea>
             </section>
 
             
@@ -75,17 +75,17 @@
                 <h2>How should we verify your account?</h2>
                 <ul>
                     <li class="form-control-inline">
-                        <input type="radio" name="verify" id="verify-text-message">
+                        <input type="radio" name="verify" id="verify-text-message" required>
                         <label for="verify-text-message">Via text message (SMS)</label>
                     </li>
             
                     <li class="form-control-inline">
-                        <input type="radio" name="verify" id="verify-phone">
+                        <input type="radio" name="verify" id="verify-phone" required>
                         <label for="verify-phone">Via a phone call</label>
                     </li>
             
                     <li class="form-control-inline">
-                        <input type="radio" name="verify" id="verify-email">
+                        <input type="radio" name="verify" id="verify-email" required>
                         <label for="verify-email">Via an email</label>
                     </li>
                 </ul>
