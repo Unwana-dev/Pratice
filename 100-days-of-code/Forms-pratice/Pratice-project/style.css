@@ -1,15 +1,106 @@
 body{
-    background-color: rgb(218, 226, 233);
+    background-color: rgb(236, 252, 253);
     font-family: 'Roboto', sans-serif;
 }
 
 h1{
     text-align: center;
+    margin: 2rem;
 }
 
-main{
-    margin: 3rem auto;
-    border: 1px solid black;
-    width: 30rem;
-    padding: 1rem;
+ul{
+    list-style: none;
+    display: inline;
 }
+
+form{
+    margin: 3rem auto;
+    width: 50rem;
+    padding: 1rem;
+    background-color: rgb(246, 241, 255);
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+ input,
+ textarea,
+ select
+{
+    width: 100%;
+    display: block;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    font: inherit;
+    border: 1px solid rgb(184, 184, 184);
+    border-radius: 4px;
+    padding: 0.5rem;
+    color: rgb(61, 58, 58);
+}
+
+section{
+    margin-bottom: 1rem;
+}
+
+label{
+    color: rgb(95, 95, 107);
+    display: block;
+    margin-bottom: 0.5rem 0;
+}
+
+textarea{
+    resize: none;
+}
+
+input:focus,
+textarea:focus{
+    background-color: rgb(217, 227, 247);
+}
+
+button{
+    font: inherit;
+    border: 1px solid rgb(51, 67, 100);
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#form-action{
+    text-align: right;
+}
+
+.filled{
+    background-color: rgb(51, 67, 100);
+    color: white;
+}
+
+.empty{
+    background-color: transparent;
+    color: rgb(51, 67, 100);
+}
+
+.filled:hover{
+    background-color: rgb(69, 89, 129);
+    border-color: rgb(69, 89, 129);
+}
+
+.empty:hover{
+    background-color: rgb(208, 215, 230);
+}
+
+.radio{
+    display: flex;
+}
+
+.radio label{
+    margin: 0;
+    margin-left: 0.5rem;
+}
+
+.radio input{
+    width: auto;
+}
+
+
+
+
+
